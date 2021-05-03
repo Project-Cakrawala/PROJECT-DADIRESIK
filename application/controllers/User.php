@@ -15,11 +15,11 @@ class User extends CI_Controller
         $this->load->model('Menu_model', 'menu');
 
         $data['MenuUser'] = $this->menu->getMenuUser();
-        $this->load->view('public/template/head', $data);
-        $this->load->view('public/template/menu_head');
-        $this->load->view('public/home/index');
-        $this->load->view('public/template/end_content');
-        $this->load->view('public/template/footer');
+        $this->load->view('user/template/head', $data);
+        $this->load->view('user/template/navbar');
+        $this->load->view('user/home');
+        //$this->load->view('public/template/end_content');
+        $this->load->view('user/template/footer');
     }
 
     public function editprofile()

@@ -44,8 +44,8 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="<?php echo base_url() . 'theme/member/images/signup-image.jpg' ?>" alt="sing up image"></figure>
-                        <a href="<?= base_url() . 'auth/index' ?>" class="signup-image-link">I am already member</a>
+                        <figure><img src="<?php echo base_url() . 'assets/img/home/img/logo1.png' ?>" alt="sing up image"></figure>
+                        <a href="<?= base_url() . 'auth/index' ?>" class="signup-image-link btn btn-outline-info">I am already member</a>
                     </div>
                 </div>
             </div>

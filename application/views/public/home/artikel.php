@@ -1,4 +1,4 @@
-<section class="blog_area section_padding">
+<section class="blog_area section_padding" style="margin-top: 50px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mb-5 mb-lg-0">

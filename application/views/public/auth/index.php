@@ -13,13 +13,13 @@
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-image">
-                        <figure><img src="<?php echo base_url() . 'theme/member/images/signin-image.jpg' ?>" alt="sing up image"></figure>
-                        <a href="<?= base_url('auth/registration') ?>" class="signup-image-link">Create an account</a>
-                        <a class="signup-image-link" href="<?php echo site_url(''); ?>">Home</a>
+                        <figure><img src="<?php echo base_url() . 'assets/img/home/img/logo1.png' ?>" alt="sing up image"></figure>
+                        <a href="<?= base_url('auth/registration') ?>" class="signup-image-link btn btn-outline-info">Create an account</a>
+                        <a class="signup-image-link btn btn-outline-warning" href="<?php echo site_url(''); ?>">Home</a>
                     </div>
 
                     <div class="signin-form">
-                        <h2 class="form-title">Sign up</h2>
+                        <h2 class="form-title">Login</h2>
                         <form method="POST" action="<?= base_url('auth') ?>" class="register-form" id="login-form">
                             <?= $this->session->flashdata('pesan'); ?>
                             <div class="form-group">

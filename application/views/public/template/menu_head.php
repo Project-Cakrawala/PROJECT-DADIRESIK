@@ -2,8 +2,8 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Etrain</title>
-	<link rel="icon" href="<?= base_url(); ?>assets/img/home/img/favicon.png">
+	<title>Dadi Resik</title>
+	<link rel="icon" href="<?= base_url(); ?>assets/img/home/img/logo1.png">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?= base_url(); ?>assets/css/home/css/bootstrap.min.css">
 	<!-- animate CSS -->
@@ -29,7 +29,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-12">
 					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="<?= base_url(); ?>"> <img src="<?= base_url(); ?>assets/img/home/img/logo.png" alt="logo"> </a>
+						<a class="navbar-brand" href="<?= base_url(); ?>"> <img src="<?= base_url(); ?>assets/img/home/img/logo1.png" alt="logo" style="width: 150px; height:90px;"> </a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
@@ -56,7 +56,7 @@
 									</li>
 								<?php else : ?>
 									<li class="d-none d-lg-block">
-										<a class="btn_1" href="<?= base_url('auth/index'); ?>">Login</a>
+										<a class="btn_1" href="<?= base_url('auth/index'); ?>">Daftar Sekarang</a>
 									</li>
 								<?php endif; ?>
 							</ul>

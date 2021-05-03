@@ -1,4 +1,4 @@
-<section class="breadcrumb breadcrumb_bg">
+<!--<section class="breadcrumb breadcrumb_bg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -11,11 +11,11 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- breadcrumb start-->
 
 <!--::review_part start::-->
-<section class="special_cource padding_top">
+<section class="special_cource padding_top" style="margin-top: 50px; margin-bottom: 50px;">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-5">
@@ -131,7 +131,7 @@
 <!--::blog_part end::-->
 
 <!--::review_part start::-->
-<section class="testimonial_part section_padding">
+<!--<section class="testimonial_part section_padding">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-xl-5">
@@ -245,5 +245,5 @@
 
         </div>
     </div>
-</section>
+</section>-->
 <!--::blog_part end::-->
